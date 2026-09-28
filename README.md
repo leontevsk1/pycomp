@@ -1,3 +1,20 @@
+# Общее Теория и практика программной инженерии.
+
+Преподаватель: Калачев Александр Викторович
+
+## Нагрузка
+
+- Лек. 34 ч.
+- Практ. 0 ч.
+- Лаб. 51 ч.
+- Самост. 131 ч.
+- Итого 216 ч.
+
+## Аттестация
+
+**Форма:** Зачет
+**Требования:** Проект "Компилятор языка Python для процессоров архитектуры RISC-V (с поддержкой выбора опций компиляции под разные варанты системы команд)"
+
 # Исследование: Компилятор языка Python для процессоров архитектуры RISC-V
 
 Дата: 28.09.2026. Тема: реализации Python (компиляторы/интерпретаторы) для RISC-V (riscv64/rv32), перспективные beta-проекты, научные статьи, стандарты.
@@ -22,8 +39,8 @@
 | **PyTorch for RISC-V** | https://discuss.pytorch.org/t/risc-v-architecture-support-roadmap-for-pytorch/224278 | Официальный roadmap: RVV/RVM SIMD, ATen-операторы, нативный CI. Wheel-пакеты: https://pypi.org/project/pytorch-riscv64/ . |
 | **wheel_builder / riscv64 PyPI wheels** | https://riseproject.dev/2025/05/14/easy-installation-of-binary-python-packages-on-riscv64-devices/ , https://github.com/pyca/cryptography/issues/14460 | Индекс PEP 503 с 50+ riscv64 wheel для ML/AI стека (numpy, scipy, cryptography…). manylinux-riscv64 на подходе. |
 | **xDSL + MLIR → RISC-V** | https://arxiv.org/html/2603.17800v1 | Компиляция через MLIR с генерацией RISC-V vector кода; xDSL (Python-фреймворк для MLIR-диалектов) — перспективный путь «Python как компилятор для RISC-V». |
-| **Pydgin for RISC-V** (статья: https://people.ece.cornell.edu/berkin/ilbeyi-pydgin-riscv2016.pdf) | Быстрый DSL-симулятор ISA на Python — основа для прототипирования компиляторов/расширений RISC-V. |
-| **RGen** (CARRV 2023 paper: https://carrv.github.io/2023/papers/CARRV2023_paper_6_Tu.pdf) | Генератор компилятора, симулятора и ассемблера RISC-V из одного описания ISA — beta, активно развивается. |
+| **Pydgin for RISC-V** |(статья: https://people.ece.cornell.edu/berkin/ilbeyi-pydgin-riscv2016.pdf) | Быстрый DSL-симулятор ISA на Python — основа для прототипирования компиляторов/расширений RISC-V. |
+| **RGen** | (CARRV 2023 paper: https://carrv.github.io/2023/papers/CARRV2023_paper_6_Tu.pdf) | Генератор компилятора, симулятора и ассемблера RISC-V из одного описания ISA — beta, активно развивается. |
 | **CircuitPython/MicroPython RISC-V эмулятор на чистом Python** | https://www.adafruitdaily.com/2025/06/02/python-on-microcontrollers-newsletter-a-risc-v-emulator-that-runs-circuitpython-micropython-and-more-circuitpython-python-micropython-thepsf-raspberry_pi/ | RV32I эмулятор, запускающий MicroPython — образовательная база для собственных компиляторных экспериментов. |
 | **CPython Tier 2 продвижение + buildbot riscv64** | https://docs.python.org/devguide/ | Текущая работа сообщества: билдботы на железе RISC-V, пакеты riscv64 в Debian/Fedora (https://wiki.debian.org/RISC-V). |
 
